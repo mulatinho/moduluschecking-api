@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/AntoineAugusti/moduluschecking-api/middlewares"
-	"github.com/AntoineAugusti/moduluschecking-api/responses"
-	"github.com/AntoineAugusti/moduluschecking/models"
-	"github.com/AntoineAugusti/moduluschecking/resolvers"
 	"github.com/cloudflare/service"
 	"github.com/cloudflare/service/render"
 	"github.com/codegangsta/negroni"
+	"github.com/fabwa/moduluschecking/models"
+	"github.com/fabwa/moduluschecking/resolvers"
+	"github.com/mulatinho/moduluschecking-api/middlewares"
+	"github.com/mulatinho/moduluschecking-api/responses"
 )
 
 type bankAccountRequest struct {

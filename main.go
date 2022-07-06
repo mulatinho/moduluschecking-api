@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 
-	"github.com/AntoineAugusti/moduluschecking-api/controllers"
-	"github.com/AntoineAugusti/moduluschecking-api/middlewares"
-	"github.com/AntoineAugusti/moduluschecking/parsers"
 	"github.com/cloudflare/service"
-	"gopkg.in/redis.v3"
+	"github.com/fabwa/moduluschecking/parsers"
+	"github.com/mulatinho/moduluschecking-api/controllers"
+	"github.com/mulatinho/moduluschecking-api/middlewares"
+	"gopkg.in/redis.v5"
 )
 
 var buildTag = "dev"

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/AntoineAugusti/moduluschecking-api/responses"
 	"github.com/etcinit/speedbump"
+	"github.com/mulatinho/moduluschecking-api/responses"
 	"gopkg.in/redis.v3"
 )
 

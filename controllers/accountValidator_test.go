@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AntoineAugusti/moduluschecking-api/middlewares"
-	"github.com/AntoineAugusti/moduluschecking-api/responses"
 	"github.com/AntoineAugusti/moduluschecking/parsers"
 	"github.com/cloudflare/service"
+	"github.com/mulatinho/moduluschecking-api/middlewares"
+	"github.com/mulatinho/moduluschecking-api/responses"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/redis.v3"
 )

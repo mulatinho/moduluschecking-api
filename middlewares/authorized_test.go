@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/AntoineAugusti/moduluschecking-api/responses"
 	"github.com/codegangsta/negroni"
+	"github.com/mulatinho/moduluschecking-api/responses"
 	"github.com/stretchr/testify/assert"
 )
 

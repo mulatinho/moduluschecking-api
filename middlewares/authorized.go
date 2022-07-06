@@ -3,7 +3,7 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/AntoineAugusti/moduluschecking-api/responses"
+	"github.com/mulatinho/moduluschecking-api/responses"
 )
 
 type Authorization struct {

@@ -13,7 +13,7 @@ import (
 	"github.com/mulatinho/moduluschecking-api/middlewares"
 	"github.com/mulatinho/moduluschecking-api/responses"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/redis.v3"
+	"gopkg.in/redis.v5"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 
 	"github.com/etcinit/speedbump"
 	"github.com/mulatinho/moduluschecking-api/responses"
-	"gopkg.in/redis.v3"
+	"gopkg.in/redis.v5"
 )
 
 type Limiter struct {

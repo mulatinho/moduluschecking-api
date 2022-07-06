@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AntoineAugusti/moduluschecking/parsers"
 	"github.com/cloudflare/service"
+	"github.com/fabwa/moduluschecking/parsers"
 	"github.com/mulatinho/moduluschecking-api/middlewares"
 	"github.com/mulatinho/moduluschecking-api/responses"
 	"github.com/stretchr/testify/assert"
